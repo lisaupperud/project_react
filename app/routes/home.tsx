@@ -1,9 +1,10 @@
 import type { Route } from "./+types/home";
+// importerar funktionen Welcome fron welcome.tsx
 import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
+    { title: "Home" },
     { name: "description", content: "Welcome to React Router!" },
   ];
 }
