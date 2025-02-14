@@ -12,7 +12,7 @@ export function About() {
         I'm Lisa, a 25 year old from Stockholm, Sweden who is studing to become
         a Fullstack Java Developer.
       </p>
-      <Link to={"./routes/home"}>Go to Home Page</Link>
+      <Link to={"/"}>Go to Home Page</Link>
     </main>
   );
 }

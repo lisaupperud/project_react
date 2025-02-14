@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  border: 2px solid #94c7e9;
+  background-color: #5fa3d1;
+  color: #10354e;
+  padding: 20px;
+  border-radius: 5%;
+  text-decoration: none;
+}
