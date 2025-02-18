@@ -6,7 +6,6 @@ interface CustomButtonProps {
 }
 
 // className === class
-// id === id (remains the same)
 export function CustomButton({ customButtonName, onClick }: CustomButtonProps) {
   return (
     <div>
