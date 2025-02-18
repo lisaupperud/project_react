@@ -1,11 +1,12 @@
 import styles from "./CustomButton.module.css";
 
+// interface i extern fil 
 interface CustomButtonProps {
   customButtonName: string;
   onClick: () => void; // definiera som en void funktion
 }
 
-// className === class
+// funktion med parametrar och argument + typat
 export function CustomButton({ customButtonName, onClick }: CustomButtonProps) {
   return (
     <div>
